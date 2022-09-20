@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    font-family: "Gill Sans", sans-serif;
+} 
+
+.navbar {
+    padding: 25px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px #9ca1b0;
+    
+}
+
+.navbar-left img{
+    width: 170px;
+    
+}
+
+/*.navbar-left img:hover, .navbar-left img:focus{
+    cursor: pointer;
+}*/
+
+.navbar-left div{
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+.navbar-left, .navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left > *, .navbar-right > *{
+    margin: 10px;
+}
+
+.donation, .sign-up{
+    font-weight: 550;
+    color: white;
+    transform: rotate(-25deg);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+.donation{
+    display: table-cell;
+    text-align: center;
+    background: #e5007d;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    vertical-align: middle;
+    
+}
+
+.sign-up{
+    display: table-cell;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #5ac4f3;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    vertical-align: middle;
+}
