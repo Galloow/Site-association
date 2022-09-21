@@ -3,7 +3,7 @@ body {
     font-family: "Gill Sans", sans-serif;
 } 
 
-.navbar {
+.header {
     padding: 25px;
     font-size: 14px;
     display: flex;
@@ -13,27 +13,28 @@ body {
     
 }
 
-.navbar-left img{
+.header-left img{
     width: 170px;
     
 }
 
-/*.navbar-left img:hover, .navbar-left img:focus{
-    cursor: pointer;
+/*.header-left img:hover {
+    color: green;
 }*/
 
-.navbar-left div{
+
+.header-left div{
     text-transform: uppercase;
     font-weight: 600;
     
 }
 
-.navbar-left, .navbar-right{
+.header-left, .header-right{
     display: flex;
     align-items: center;
 }
 
-.navbar-left > *, .navbar-right > *{
+.header-left > *, .header-right > *{
     margin: 10px;
 }
 
@@ -69,3 +70,23 @@ body {
     height: 140px;
     vertical-align: middle;
 }
+
+.navbar-list {
+    justify-content:center;
+    width: 100%;
+    font-weight: 600;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #9ca1b0;
+     
+}
+
+
+
+
+
+
+
