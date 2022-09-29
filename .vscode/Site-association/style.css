@@ -18,9 +18,19 @@ body {
     
 }
 
-/*.header-left img:hover {
-    color: green;
-}*/
+.header-left > div a:link, .header-right > div a:link{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+.header-left > #volunteer a:hover{
+    color:#5ac4f3 ;
+}
+
+.header-left > #donor a:hover{
+    color: #e5007d;
+}
 
 
 .header-left div{
@@ -81,9 +91,27 @@ body {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #9ca1b0;
-     
+      
 }
 
+.navbar-list > ul > a:link {
+    text-decoration: none;
+    transition: color .3s, background-color .3s;
+}
+
+.navbar-list > ul > a:hover {
+    color: #e5007d;
+}
+
+  
+.section {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    padding-top: 30px;
+    margin: 20px;
+    
+}
 
 
 
