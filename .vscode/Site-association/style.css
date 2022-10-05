@@ -81,6 +81,7 @@ body {
     vertical-align: middle;
 }
 
+
 .navbar-list {
     justify-content:center;
     width: 100%;
@@ -104,17 +105,103 @@ body {
 }
 
   
+.content{
+    padding-top: 50px;
+}
+
 .section {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     padding-top: 30px;
     margin: 20px;
-    
+    gap: 30px;
 }
 
 
+.card {
+border-radius: 25px;
+-webkit-box-shadow: 0px 0px 20px 3px rgba(207, 207, 207, 1);
+-moz-box-shadow: 0px 0px 20px 3px rgba(207, 207, 207, 1);
+box-shadow: 0px 0px 20px 3px rgba(207, 207, 207, 1);
+padding: 20px;
+align-items: center;
+}
 
 
+.full-row {
+grid-column: 1/4;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+background-color: #5ac4f3;
 
+}
+
+.one, .two, .three, .full-row{
+    font-size: large;
+}
+
+.one, .three{
+    background-color:#e5007d;
+}
+
+.two{
+    background-color: #5ac4f3;
+    font-size: 110px;
+    padding-top: 55px;
+    padding-left: 230px;
+    color: white;
+}
+
+.aide-alimentaire{
+    border: solid 1px black;
+    display: block;
+}
+
+.footer{
+    border-top: solid 1px black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.footer svg{
+    height: 30px;
+}
+
+.bi-facebook {
+    padding: 1px;
+    border: 2px solid;
+    border-radius: 20px;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    
+}
+
+/*.bi-facebook:hover,
+.bi-facebook:focus {
+  color:#385898;
+}*/
+
+.bi-twitter{
+    color: rgb(29, 155, 240);
+}
+
+.bi-youtube{
+    color: rgb(255, 0, 0);
+}
+
+.bi-linkedin{
+    color: #0a66c2;
+}
+
+.bi-instagram{
+    padding: 1px;
+    color: rgb(255, 220, 128);
+    border: solid 1px;
+    background: rgb(225, 48, 108);
+    border-radius: 9px;
+}
 
