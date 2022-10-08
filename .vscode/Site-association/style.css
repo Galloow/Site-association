@@ -155,7 +155,14 @@ background-color: #5ac4f3;
 
 .aide-alimentaire{
     border: solid 1px black;
-    display: block;
+    display: grid;
+    gap: 10px;
+    /*grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;*/
+}
+
+.aide-alimentaire > p{
+    grid-column: 1/2;
 }
 
 .footer{
