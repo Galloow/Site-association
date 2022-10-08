@@ -1,1 +1,2 @@
-
+Le petit probleme que j'ai eu son sur mes "push", lorsque que j'effectuais des commits pour update le contenu du site, j'effacais l'ancien commit effectuer auparavant pour le remplacer par le nouveau .. Du coup, sur l'historique tout mes commits ne figure pas, on a que le dernier en date à chaque fois.
+J'ai surement du mal comprendre la manip ! Cependant toutes les modifications étaient tout le temps présentes lors de mes commits, on aura le produit final sans les étapes intermédiares malheuresement, mais peut-etre que vous pourrez m'aiguiller lorsquer vous me ferrez un retour sur l'évaluation !
